@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
         - name: web
-          image: rishikeshreddyv/mini-web:REPLACE_ME
+          image: rishikeshreddyv/mini-web:18b7ce7
           ports:
             - containerPort: 80
