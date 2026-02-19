@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
         - name: web
-          image: YOUR_DOCKERHUB_USER/mini-web:REPLACE_ME
+          image: rishikeshreddyv/mini-web:REPLACE_ME
           ports:
             - containerPort: 80
