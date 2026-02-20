@@ -4,9 +4,6 @@ metadata:
   name: web-config
   namespace: mini
 data:
-<<<<<<< HEAD
-    index.html: "Hello from ConfigMap (change me in Git)"
-=======
   index.html: |
     <html>
       <body style="font-family:sans-serif;">
@@ -14,4 +11,3 @@ data:
         <p>If you edit this in Git, Rafay GitOps will deploy it.</p>
       </body>
     </html>
->>>>>>> 1aea11e (Update Configmap and deployments)
