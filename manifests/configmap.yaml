@@ -4,4 +4,4 @@ metadata:
     name: web-config
     namespace: mini
 data:
-    banner.txt: "Hello from ConfigMap (change me in Git)"
+    index.html: "Hello from ConfigMap (change me in Git)"
