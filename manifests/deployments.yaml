@@ -16,3 +16,11 @@ spec:
           image: rishikeshreddyv/mini-web:18b7ce7
           ports:
             - containerPort: 80
+          volumeMounts:
+            - name: html
+              mountPath: /usr/share/nginx/html/index.html
+              subPath: index.html
+      volumes:
+        - name: html
+          configMap:
+            name: web-config
